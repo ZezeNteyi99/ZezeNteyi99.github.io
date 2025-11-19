@@ -40,14 +40,6 @@ portfolio/
 └── README.md           # Project documentation
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- Text editor (VS Code recommended)
-
-
 ## 🎨 Color Customization
 
 ### Dark Mode (Default)
@@ -86,17 +78,6 @@ The portfolio is fully responsive with breakpoints at:
 - Sections fade in as you scroll
 - Skill bars animate when in viewport
 
-## 📝 Future Enhancements
-
-- [ ] Add blog section
-- [ ] Integrate more projects
-- [ ] Add testimonials slider
-- [ ] Create case studies for major projects
-- [ ] Add loading animation
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
@@ -105,28 +86,8 @@ This project is open source and available under the [MIT License](LICENSE).
 - GitHub: [@ZezeNteyi99](https://github.com/ZezeNteyi99)
 - LinkedIn: [Khanyisa Zezethu Nteyi](https://www.linkedin.com/in/khanyisa-zezethu-nteyi-765390207/)
 - Email: zezenteyi99@gmail.com
-
-## 🙏 Acknowledgments
-
-- Inspired by modern portfolio designs
-- Night sky animation concept from creative coding community
-- FormSubmit for free form handling
-
-## 📸 Screenshots
-
-### Dark Mode
-![Dark Mode](screenshots/dark-mode.png)
-
-### Light Mode
-![Light Mode](screenshots/light-mode.png)
-
-### Mobile View
-![Mobile View](screenshots/mobile.png)
-
-<!-- Add these screenshots after deploying -->
-
 ---
 
 ⭐ If you like this portfolio design, feel free to star this repository!
 
-Built with ❤️ and ☕ by Zezethu Nteyi
+Built with ❤️ and ☕ by Khanyisa Zezethu Nteyi
