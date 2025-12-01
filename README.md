@@ -37,7 +37,9 @@ portfolio/
 ├── script.js           # JavaScript functionality
 ├── profile.jpg         # Profile photo
 ├── resume.pdf          # Downloadable resume (optional)
-└── README.md           # Project documentation
+├── images/             #Project images
+└── README.md  # Project documentation
+
 ```
 
 ## 🎨 Color Customization
