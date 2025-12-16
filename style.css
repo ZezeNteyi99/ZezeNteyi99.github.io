@@ -1431,5 +1431,119 @@ body.light-mode .platform-link {
     text-align: center;
   }
 }
+/* GitHub Repos Card Styling */
+.github-repos-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(91,192,222,0.3), rgba(52,152,219,0.2));
+  padding: 20px;
+}
+
+.github-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #5bc0de;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.github-icon svg {
+  filter: drop-shadow(0 5px 15px rgba(91,192,222,0.5));
+}
+
+@keyframes pulse {
+  0%, 100% { 
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% { 
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+.github-repos-overlay p {
+  font-size: 1.3rem;
+  color: #5bc0de;
+  font-weight: bold;
+  text-align: center;
+}
+
+.repo-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.repo-list li {
+  padding-left: 25px;
+  position: relative;
+  margin-bottom: 15px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.repo-list li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #5bc0de;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.repo-list li strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.repo-list a {
+  color: #5bc0de;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1.05rem;
+}
+
+.repo-list a:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+/* Light Mode */
+body.light-mode .github-repos-overlay {
+  background: linear-gradient(135deg, rgba(102,126,234,0.2), rgba(118,75,162,0.15));
+}
+
+body.light-mode .github-icon {
+  color: #667eea;
+}
+
+body.light-mode .github-icon svg {
+  filter: drop-shadow(0 5px 15px rgba(102,126,234,0.5));
+}
+
+body.light-mode .github-repos-overlay p {
+  color: #667eea;
+}
+
+body.light-mode .repo-list li {
+  color: #555;
+}
+
+body.light-mode .repo-list li::before {
+  color: #667eea;
+}
+
+body.light-mode .repo-list a {
+  color: #667eea;
+}
+
+body.light-mode .repo-list a:hover {
+  color: #5a67d8;
+}
+
 
 
