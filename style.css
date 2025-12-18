@@ -1544,6 +1544,31 @@ body.light-mode .repo-list a {
 body.light-mode .repo-list a:hover {
   color: #5a67d8;
 }
+/* Capstone Tag Special Styling */
+.tag:contains("Capstone"),
+.project-tags .tag:last-child {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+  color: #fff;
+  border-color: #ff6b6b;
+  font-weight: bold;
+  animation: pulse-glow 2s infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+  }
+}
+
+/* Light Mode */
+body.light-mode .tag:contains("Capstone"),
+body.light-mode .project-tags .tag:last-child {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-color: #667eea;
+}
 
 
 
